@@ -66,7 +66,7 @@ int main(int argc, char **argv) {
   Program *prg = new Program();
   if (argc <= 1) {
     while (true) {
-      std::cout << "(sexfish) >> ";
+      std::cout << ">>";
       std::string ins;
       std::cin >> ins;
       prg->handle(ins);
