@@ -62,7 +62,7 @@ private:
 };
 
 int main(int argc, char **argv) {
-  // SexFish Interactive mode
+  // deadfish Interactive mode
   Program *prg = new Program();
   if (argc <= 1) {
     while (true) {
